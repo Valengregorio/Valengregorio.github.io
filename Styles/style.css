@@ -1,21 +1,29 @@
-body{
-    background-color: aqua;
-}
-.menu{
-    list-style: none;
+.menu {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(0, 7, 7);
     overflow: hidden;
 }
-.menu li{
+
+.menu li {
     float:left
 }
-li a{
-    border: 1px solid black
-    pudding: 15px;
-    display: block;
-    text-allign: center;
-    color: ;
+li a {
+    border: 1px solid black;
+    padding: 15px;
+    color: white;
+    display: block; 
+    text-decoration: none;
+    text-align: center;
+}
 
+/*hover*/
+a:hover {
+    background-color: burlywood;
+}
+
+.contenido {
+    padding-left: 15px;
+    background-color: rgb(245, 233, 176);
 }
