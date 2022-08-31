@@ -1,3 +1,21 @@
 body{
     background-color: aqua;
 }
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.menu li{
+    float:left
+}
+li a{
+    border: 1px solid black
+    pudding: 15px;
+    display: block;
+    text-allign: center;
+    color: ;
+
+}
